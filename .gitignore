@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+.env.*
+
+qdrant_data/
+
+.streamlit/
+
+.DS_Store
+Thumbs.db

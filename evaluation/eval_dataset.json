@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "送測需要幾台樣品？",
+    "expected_keyword": "兩台",
+    "expected_chunk_ids": [1, 2],
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "question": "送測前要準備哪些資料？",
+    "expected_keyword": "使用說明書",
+    "expected_chunk_ids": [0, 1],
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "question": "客戶資料沒準備完整要怎麼處理？",
+    "expected_keyword": "專案窗口",
+    "expected_chunk_ids": [2, 3],
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "question": "測試完成後結果記錄在哪？",
+    "expected_keyword": "測試報告",
+    "expected_chunk_ids": [2, 3],
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "question": "EMC 是什麼？",
+    "expected_keyword": "電磁相容",
+    "expected_chunk_ids": [0],
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "question": "EMC 測試費用是多少？",
+    "expected_keyword": null,
+    "expected_chunk_ids": [],
+    "answerable": false
+  },
+  {
+    "id": 7,
+    "question": "測試大概需要幾天？",
+    "expected_keyword": null,
+    "expected_chunk_ids": [],
+    "answerable": false
+  },
+  {
+    "id": 8,
+    "question": "公司負責人是誰？",
+    "expected_keyword": null,
+    "expected_chunk_ids": [],
+    "answerable": false
+  },
+  {
+    "id": 9,
+    "question": "今天晚上吃什麼？",
+    "expected_keyword": null,
+    "expected_chunk_ids": [],
+    "answerable": false
+  },
+  {
+    "id": 10,
+    "question": "如果產品資料缺漏，要通知誰？",
+    "expected_keyword": "專案窗口",
+    "expected_chunk_ids": [2, 3],
+    "answerable": true
+  }
+]
